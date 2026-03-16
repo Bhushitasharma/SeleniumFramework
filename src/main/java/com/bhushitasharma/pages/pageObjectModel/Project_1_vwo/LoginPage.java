@@ -27,6 +27,7 @@ public class LoginPage {
         driver.findElement(username).sendKeys(user);
         driver.findElement(password).sendKeys(pwd);
         driver.findElement(signButton).click();
+
         try {
             Thread.sleep(2000);
 
